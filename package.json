@@ -1,0 +1,27 @@
+{
+  "name": "chat_node_js",
+  "version": "1.0.0",
+  "description": "Proyecto de chat con node js y socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscojimenez58/appchat.git"
+  },
+  "author": "Jorge Jimenez Candiotti",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/franciscojimenez58/appchat/issues"
+  },
+  "homepage": "https://github.com/franciscojimenez58/appchat#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
