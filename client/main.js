@@ -24,7 +24,7 @@ function addMessage(e){
 		text: document.getElementById('text').value
 	}
 	document.getElementById('nickname').style.display = 'none';
-	document.getElementById('text').innerHTML = '';
+	document.getElementById('text').value = '';
 	socket.emit('add-message', message);
 	return false;
 
